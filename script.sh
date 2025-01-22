@@ -8,6 +8,7 @@ wget https://raw.githubusercontent.com/77351910/emby-crx/refs/heads/master/stati
 wget https://raw.githubusercontent.com/77351910/emby-crx/refs/heads/master/static/js/jquery-3.6.0.min.js -P emby-crx/
 wget https://raw.githubusercontent.com/77351910/emby-crx/refs/heads/master/static/js/md5.min.js -P emby-crx/
 wget https://raw.githubusercontent.com/77351910/emby-crx/refs/heads/master/content/main.js -P emby-crx/
+wget https://raw.githubusercontent.com/77351910/emby-crx/refs/heads/master/static/js/config.js -P emby-crx/
 
 # 读取index.html文件内容
 content=$(cat index.html)
