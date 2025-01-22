@@ -137,7 +137,7 @@ class Home {
 				<div class="misty-banner-info padded-left padded-right">
 					<h1>${detail.Name}</h1>
 					<div><p>${detail.Overview}</p></div>
-					<div><button onclick="appRouter.showItem('${detail.Id}')">MORE</button></div>
+					<div><button onclick="appRouter.showItem('${detail.Id}')">更多</button></div>
 				</div>
 			</div>
 			`,
